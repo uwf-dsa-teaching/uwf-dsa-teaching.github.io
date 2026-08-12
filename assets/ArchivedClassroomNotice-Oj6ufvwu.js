@@ -1,0 +1,1 @@
+import{Fn as e}from"./assess-DRQtD_KK.js";var t=e(),n=({className:e=`mb-4`,children:n})=>(0,t.jsx)(`div`,{role:`alert`,className:`alert alert-info alert-soft ${e}`,children:(0,t.jsx)(`span`,{className:`text-sm`,children:n})});export{n as t};

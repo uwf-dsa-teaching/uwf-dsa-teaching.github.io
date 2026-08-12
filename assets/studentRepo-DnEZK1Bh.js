@@ -1,0 +1,1 @@
+var e=(e,t,n)=>`${e}-${t}-${n}`.toLowerCase(),t=(t,n,r,i)=>`https://github.com/${t}/${e(n,r,i)}`;export{t as n,e as t};

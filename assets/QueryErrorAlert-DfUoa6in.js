@@ -1,0 +1,1 @@
+import{Fn as e,Kt as t,V as n,k as r}from"./assess-DRQtD_KK.js";var i=e();function a({message:e,onRetry:a,className:o=`mt-4`}){let{t:s}=t();return(0,i.jsx)(r,{tone:`error`,className:o,children:(0,i.jsxs)(`div`,{children:[e,(0,i.jsx)(n,{variant:`ghost`,size:`sm`,className:`ms-2`,onClick:a,children:s(`submissions.errors.retry`)})]})})}export{a as t};

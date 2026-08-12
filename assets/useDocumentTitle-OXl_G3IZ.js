@@ -1,0 +1,1 @@
+import{o as e}from"./rolldown-runtime-C0FnF6B9.js";import{Ln as t,Rn as n}from"./assess-DRQtD_KK.js";var r=t(),i=e(n(),1),a=`Classroom 50`;function o(e){let t=(0,r.c)(3),n,o;t[0]===e?(n=t[1],o=t[2]):(n=()=>(document.title=e?`${e} · ${a}`:a,s),o=[e],t[0]=e,t[1]=n,t[2]=o),(0,i.useEffect)(n,o)}function s(){document.title=a}export{o as t};

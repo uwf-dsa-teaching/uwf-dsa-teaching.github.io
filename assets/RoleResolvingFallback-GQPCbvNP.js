@@ -1,0 +1,1 @@
+import{Fn as e,U as t}from"./assess-DRQtD_KK.js";var n=e(),r=({className:e=`min-h-[60vh]`})=>(0,n.jsx)(`div`,{className:`flex items-center justify-center ${e}`,children:(0,n.jsx)(t,{size:`lg`})});export{r as t};

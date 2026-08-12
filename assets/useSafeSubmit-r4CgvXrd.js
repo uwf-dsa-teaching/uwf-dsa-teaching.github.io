@@ -1,0 +1,1 @@
+import"./rolldown-runtime-C0FnF6B9.js";import{Ln as e,Rn as t}from"./assess-DRQtD_KK.js";var n=e();t();function r(){let e=!1;return async t=>{if(!e){e=!0;try{await t()}catch{}finally{e=!1}}}}function i(){let e=(0,n.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=r(),e[0]=t):t=e[0],t}export{i as t};

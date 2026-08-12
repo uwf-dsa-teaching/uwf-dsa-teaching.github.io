@@ -1,0 +1,1 @@
+function e(e){return e===`team`||e===`enterprise`?`supported`:e===`free`?`free`:`unknown`}export{e as t};

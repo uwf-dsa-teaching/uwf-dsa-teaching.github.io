@@ -1,0 +1,1 @@
+async function e(e){return e.request(`/user`)}export{e as t};

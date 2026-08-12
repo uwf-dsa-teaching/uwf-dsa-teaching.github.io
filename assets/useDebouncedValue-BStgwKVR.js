@@ -1,0 +1,1 @@
+import{o as e}from"./rolldown-runtime-C0FnF6B9.js";import{Ln as t,Rn as n}from"./assess-DRQtD_KK.js";var r=t(),i=e(n(),1);function a(e,t){let n=(0,r.c)(4),[a,o]=(0,i.useState)(e),s,c;return n[0]!==t||n[1]!==e?(s=()=>{let n=setTimeout(()=>o(e),t);return()=>clearTimeout(n)},c=[e,t],n[0]=t,n[1]=e,n[2]=s,n[3]=c):(s=n[2],c=n[3]),(0,i.useEffect)(s,c),a}export{a as t};

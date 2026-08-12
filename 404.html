@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The free, open-source alternative to GitHub Classroom. Distribute and auto-grade programming assignments on GitHub."
+    />
+
+    <!-- Absolute URLs: unfurlers can't resolve relative paths. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Classroom 50" />
+    <meta property="og:title" content="Classroom 50" />
+    <meta
+      property="og:description"
+      content="The free, open-source alternative to GitHub Classroom. Distribute and auto-grade programming assignments on GitHub."
+    />
+    <meta property="og:url" content="https://classroom50.org/" />
+    <meta property="og:image" content="https://classroom50.org/og-image.jpg" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="537" />
+    <meta property="og:image:alt" content="Classroom 50 logo" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Classroom 50" />
+    <meta
+      name="twitter:description"
+      content="The free, open-source alternative to GitHub Classroom. Distribute and auto-grade programming assignments on GitHub."
+    />
+    <meta name="twitter:image" content="https://classroom50.org/og-image.jpg" />
+    <title>Classroom 50</title>
+    <script>
+      // Anti-flash: apply the persisted (or OS-preferred) theme before the app
+      // renders so there's no light->dark flicker. Mirrors resolveInitialTheme
+      // in src/hooks/useTheme.ts.
+      ;(function () {
+        try {
+          var stored = localStorage.getItem("classroom50:theme")
+          var theme =
+            stored === "sumi" || stored === "sumi-dark"
+              ? stored
+              : window.matchMedia &&
+                  window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? "sumi-dark"
+                : "sumi"
+          document.documentElement.setAttribute("data-theme", theme)
+        } catch (e) {}
+      })()
+      // Anti-flash: apply the persisted language's direction before the app
+      // renders so RTL languages don't paint left-to-right first. The RTL
+      // subtag list mirrors RTL_LANGS in src/i18n/direction.ts — keep in sync.
+      ;(function () {
+        try {
+          var lang = localStorage.getItem("classroom50:lang")
+          if (!lang) return
+          document.documentElement.lang = lang
+          var primary = lang.toLowerCase().split("-")[0]
+          if (["ar", "he", "fa", "ur"].indexOf(primary) !== -1) {
+            document.documentElement.dir = "rtl"
+          }
+        } catch (e) {}
+      })()
+      // Anti-flash: apply the resolved reduced-motion verdict before the app
+      // renders so a motion-off user never sees a first-paint animation. Mirrors
+      // motionReduced/resolveInitialMotionPref in src/hooks/useReducedMotion.ts.
+      ;(function () {
+        try {
+          var pref = localStorage.getItem("classroom50:motion")
+          var reduced =
+            pref === "off"
+              ? true
+              : pref === "on"
+                ? false
+                : window.matchMedia &&
+                  window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          if (reduced) {
+            document.documentElement.setAttribute("data-reduce-motion", "true")
+          }
+        } catch (e) {}
+      })()
+    </script>
+    <script type="module" crossorigin src="/assets/index-DpnE6lu7.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-C0FnF6B9.js">
+    <link rel="modulepreload" crossorigin href="/assets/assess-DRQtD_KK.js">
+    <link rel="modulepreload" crossorigin href="/assets/useGithubAuth-CBlf3LQE.js">
+    <link rel="modulepreload" crossorigin href="/assets/skeleton-DXLw7_Ou.js">
+    <link rel="modulepreload" crossorigin href="/assets/i18next-CiWWkIi9.js">
+    <link rel="modulepreload" crossorigin href="/assets/customLocale-CmUIVpvd.js">
+    <link rel="modulepreload" crossorigin href="/assets/i18n-Dc_ICV17.js">
+    <link rel="modulepreload" crossorigin href="/assets/chevron-down-jZx-9FfL.js">
+    <link rel="modulepreload" crossorigin href="/assets/external-link-lNZEQ38Z.js">
+    <link rel="modulepreload" crossorigin href="/assets/NotificationProvider-Ci53gz2g.js">
+    <link rel="modulepreload" crossorigin href="/assets/HiddenOrgsProvider-CTh7OMAM.js">
+    <link rel="modulepreload" crossorigin href="/assets/repoReads-CImVwROz.js">
+    <link rel="modulepreload" crossorigin href="/assets/mutations-36-HCt1V.js">
+    <link rel="modulepreload" crossorigin href="/assets/githubHealthStore-Daz63OdI.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DxnkpW9b.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

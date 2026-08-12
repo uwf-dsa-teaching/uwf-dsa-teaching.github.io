@@ -1,0 +1,1 @@
+function e(e){return e.empty_repo===!0}function t(e){return e.no_autograder===!0}function n(n){return e(n)||t(n)}function r(n){return e(n)?`empty`:t(n)?`none`:`built-in`}export{r as n,t as r,n as t};
