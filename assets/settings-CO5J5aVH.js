@@ -1,0 +1,1 @@
+import"./useGithubAuth-DPoWbHLJ.js";import{t as e}from"./OrgSettingsPage-RgD2Fi8o.js";var t=e;export{t as component};
