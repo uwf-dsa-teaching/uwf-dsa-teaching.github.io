@@ -1,0 +1,1 @@
+import{E as e,x as t}from"./useGithubAuth-DshgZL2s.js";async function n(t,n,r){return e(()=>t.request(`/repos/${n}/${r}`),null)}async function r(e,n,r){try{let t=await e.request(`/repos/${n}/${r}/branches?per_page=1`);return Array.isArray(t)?t.length>0:null}catch(e){return e instanceof t&&e.status===404?!1:null}}export{r as n,n as t};
