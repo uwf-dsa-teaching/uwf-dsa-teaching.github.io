@@ -1,0 +1,1 @@
+import"./rolldown-runtime-C0FnF6B9.js";import{Ln as e,Rn as t}from"./assess-DRQtD_KK.js";import{x as n}from"./index-1Q76C9Tm.js";var r=e();t();function i(){let e=(0,r.c)(2),{register:t}=n(),i;return e[0]===t?i=e[1]:(i=(e,n,r)=>{!e||!n||t({org:e,label:r,anchor:{kind:`sha`,sha:n}})},e[0]=t,e[1]=i),i}export{i as t};

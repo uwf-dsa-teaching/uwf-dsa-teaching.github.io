@@ -1,1 +1,0 @@
-import{I as e,Z as t}from"./skeleton-Bf3QHulh.js";function n(n){return t({queryKey:e.viewer(),queryFn:({signal:e})=>n.request(`/user`,{method:`GET`,signal:e}),staleTime:6e5})}function r(e,t){return e.request(`/users/${encodeURIComponent(t)}`)}function i(e,t){return e.request(`/user/${encodeURIComponent(String(t))}`)}export{i as n,n as r,r as t};
