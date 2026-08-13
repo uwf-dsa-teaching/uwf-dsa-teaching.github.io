@@ -1,1 +1,0 @@
-import"./useGithubAuth-DshgZL2s.js";import{t as e}from"./AssignmentsPage-DDOgztrr.js";var t=e;export{t as component};

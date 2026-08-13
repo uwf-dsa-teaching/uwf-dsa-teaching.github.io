@@ -1,0 +1,1 @@
+import"./useGithubAuth-D4x0LdVQ.js";import{t as e}from"./ClassesPage-DoCYT9mw.js";var t=e;export{t as component};
