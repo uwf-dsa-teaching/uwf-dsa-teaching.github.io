@@ -1,0 +1,1 @@
+import{Xt as e}from"./mutations-CewjzSZL.js";function t(t){return e(t)}function n(e){let t=e.studentsLoading||e.isLoading||e.isError;return{show:!t&&e.enrolledCount===0,hasRosterRows:e.hasRosterRows,isLoading:t}}export{t as n,n as t};

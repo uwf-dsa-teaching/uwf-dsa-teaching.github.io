@@ -1,1 +1,0 @@
-import{Ln as e}from"./assess-DRQtD_KK.js";import{i as t,r as n}from"./useTeamRoster-DFgAL5n4.js";var r=e(),i=(e,i)=>{let a=(0,r.c)(4),{students:o}=t(e,i),{roleCounts:s,isLoading:c,isError:l}=n(e??``,i??``,o),u=c?void 0:s.student,d;return a[0]!==l||a[1]!==c||a[2]!==u?(d={studentCount:u,isLoading:c,isError:l},a[0]=l,a[1]=c,a[2]=u,a[3]=d):d=a[3],d};export{i as t};
