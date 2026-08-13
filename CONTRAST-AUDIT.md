@@ -2,7 +2,7 @@
 
 Derived from `contrast-audit.json` (built from `src/util/a11y/contrastModel.ts`). Not committed and not hand-edited — regenerate it. The machine guard (`src/util/a11y/contrastGuard.test.ts`) fails CI if any enforced pair drops below its spec floor, so this report always reflects guaranteed-green state.
 
-- **Generated:** 2026-08-12
+- **Generated:** 2026-08-13
 - **Standard:** WCAG 2.2 — 1.4.6 Contrast (Enhanced, AAA) for text, 1.4.11 Non-text Contrast (AA; no AAA tier exists) for UI components.
 - **Thresholds:** body text ≥ 7:1, large text ≥ 4.5:1, non-text ≥ 3:1.
 - **Recommended safety margin (above the WCAG minimum):** body ≥ 7.5:1, large ≥ 5:1, non-text ≥ 3.5:1. Extra headroom for anti-aliasing, sub-pixel rendering, and future palette tweaks; not required for conformance.

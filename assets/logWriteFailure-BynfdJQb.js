@@ -1,0 +1,1 @@
+import{x as e}from"./useGithubAuth-BNH109fc.js";function t(t,n,r){n instanceof e?t.error(r,{status:n.status,requestId:n.requestId}):t.error(`non-GitHub API error`,{err:n,record:!0})}export{t};

@@ -1,7 +1,7 @@
 {
   "schema": "contrast-audit/v1",
   "standard": "WCAG 2.2",
-  "generated": "2026-08-12",
+  "generated": "2026-08-13",
   "thresholds": {
     "body": 7,
     "large": 4.5,
